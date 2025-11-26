@@ -18,3 +18,41 @@ th, td {
     padding: 8px;
     text-align: center;
 }
+/* Basic box model styles for containers */
+.container {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+/* Style for table container */
+.table-container {
+    margin: 20px 0;
+    padding: 10px;
+    border: 2px solid #0055aa;
+    background-color: #f0f8ff;
+}
+
+/* Style for form elements */
+form {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    max-width: 600px;
+    box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    padding: 8px;
+    margin: 5px 0 10px 0;
+    border: 1px solid #999;
+    width: 100%;
+    box-sizing: border-box;
+}

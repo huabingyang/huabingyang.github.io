@@ -175,5 +175,66 @@ nav a {
     height: auto;
 }
 
+/* Basic transform on hover */
+.transform-hover {
+    transition: transform 0.3s ease;
+}
+
+.transform-hover:hover {
+    transform: scale(1.05) translateY(-5px);
+}
+
+/* Rotate image on hover */
+.rotate-image {
+    transition: transform 0.4s ease;
+}
+
+.rotate-image:hover {
+    transform: rotate(10deg);
+}
+
+/* Smooth color transition for buttons */
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Keyframes for fade-in animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Apply animation to element */
+.fade-in {
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Card with hover effect */
+.card {
+    width: 250px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    margin: 10px 0;
+}
+
+.card:hover {
+    transform: rotate(-2deg) scale(1.03);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+
 
 
